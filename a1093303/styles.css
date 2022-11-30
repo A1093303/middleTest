@@ -1,0 +1,1131 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+body{
+    top: 0px;
+    left: 0px;
+    width: 1920px;
+    height: 4805px;
+    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.bac1{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 1920px;
+    height: 80px;
+    /* UI Properties */
+    background: var(--unnamed-color-aa0601) 0% 0% no-repeat padding-box;
+    background: #AA0601 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.logo{
+    position: absolute;
+    top: 16px;
+    left: 312px;
+    width: 80px;
+    height: 49px;
+    /* UI Properties */
+    background: transparent url('img/logo.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.text1{
+    position: absolute;
+    top: 25px;
+    left: 1116px;
+    width: 80px;
+    height: 30px;
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 20px/30px var(--unnamed-font-family-source-han-sans-tw);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-ffffff);
+    text-align: left;
+    font: normal normal normal 20px/30px Source Han Sans TW;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    opacity: 1;
+}
+.text2{
+    position: absolute;
+    top: 25px;
+    left: 1260px;
+    width: 80px;
+    height: 30px;
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 20px/30px var(--unnamed-font-family-source-han-sans-tw);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-ffffff);
+    text-align: left;
+    font: normal normal normal 20px/30px Source Han Sans TW;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    opacity: 1;
+}
+.text3{
+    position: absolute;
+    top: 25px;
+    left: 1404px;
+    width: 60px;
+    height: 30px;
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 20px/30px var(--unnamed-font-family-source-han-sans-tw);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-ffffff);
+    text-align: left;
+    font: normal normal normal 20px/30px Source Han Sans TW;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    opacity: 1;
+}
+.text4{
+    position: absolute;
+    top: 25px;
+    left: 1528px;
+    width: 80px;
+    height: 30px;
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 20px/30px var(--unnamed-font-family-source-han-sans-tw);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-ffffff);
+    text-align: left;
+    font: normal normal normal 20px/30px Source Han Sans TW;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    opacity: 1;
+}
+.pic1{
+    position: absolute;
+    top: 80px;
+    left: 0px;
+    width: 1920px;
+    height: 787px;
+    background: transparent url('img/bac.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.text5{
+    position: absolute;
+    top: 376px;
+    left: 1107px;
+    width: 502px;
+    height: 54px;
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 36px/54px var(--unnamed-font-family-source-han-sans-tw);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-650300);
+    text-align: center;
+    font: normal normal normal 36px/54px Source Han Sans TW;
+    letter-spacing: 0px;
+    color: #650300;
+    opacity: 1;
+}
+.text6{
+    position: absolute;
+    top: 430px;
+    left: 1032px;
+    width: 576px;
+    height: 96px;
+    font: var(--unnamed-font-style-normal) normal bold 64px/96px var(--unnamed-font-family-source-han-sans-tw);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-650300);
+    text-align: center;
+    font: normal normal bold 64px/96px Source Han Sans TW;
+    letter-spacing: 0px;
+    color: #650300;
+    opacity: 1;
+}
+.btn1{
+    position: absolute;
+    top: 530px;
+    left: 1504px;
+    width: 104px;
+    height: 41px;
+    background: var(--unnamed-color-aa0601) 0% 0% no-repeat padding-box;
+    background: #AA0601 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.text7{
+    position: absolute;
+    top: 536px;
+    left: 1516px;
+    width: 80px;
+    height: 29px;
+    font: var(--unnamed-font-style-normal) normal medium 20px/30px var(--unnamed-font-family-source-han-sans-tw);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-ffffff);
+    text-align: left;
+    font: normal normal medium 20px/30px Source Han Sans TW;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    opacity: 1;
+}
+.bac2{
+    position: absolute;
+    top: 867px;
+    left: 0px;
+    width: 1920px;
+    height: 488px;
+    background: var(--unnamed-color-fbf2f2) 0% 0% no-repeat padding-box;
+    background: #FBF2F2 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.text8{
+    position: absolute;
+    top: 947px;
+    left: 696px;
+    width: 528px;
+    height: 72px;
+    font: var(--unnamed-font-style-normal) normal bold 48px/72px var(--unnamed-font-family-source-han-sans-tw);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-650300);
+    text-align: left;
+    font: normal normal bold 48px/72px Source Han Sans TW;
+    letter-spacing: 0px;
+    color: #650300;
+    text-transform: uppercase;
+    opacity: 1;
+}
+.icon1{
+    position: absolute;
+    top: 1051px;
+    left: 423px;
+    width: 84px;
+    height: 84px;
+    background: transparent url('img/icon1.png') 0% 0% no-repeat padding-box;
+}
+.text9{
+    position: absolute;
+    top: 1159px;
+    left: 312px;
+    width: 306px;
+    height: 36px;
+    font: var(--unnamed-font-style-normal) normal bold 24px/36px var(--unnamed-font-family-source-han-sans-tw);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-650300);
+    text-align: center;
+    font: normal normal bold 24px/36px Source Han Sans TW;
+    letter-spacing: 0px;
+    color: #650300;
+    text-transform: uppercase;
+    opacity: 1;
+}
+.text10{
+    position: absolute;
+    top: 1203px;
+    left: 312px;
+    width: 306px;
+    height: 48px;
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 16px/24px var(--unnamed-font-family-source-han-sans-tw);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-000000);
+    text-align: left;
+    font: normal normal normal 16px/24px Source Han Sans TW;
+    letter-spacing: 0px;
+    color: #000000;
+    text-transform: uppercase;
+    opacity: 1;
+}
+.icon2{
+    position: absolute;
+    top: 1051px;
+    left: 753px;
+    width: 83px;
+    height: 83px;
+    background: transparent url('img/icon2.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.text11{
+    position: absolute;
+    top: 1159px;
+    left: 706px;
+    width: 178px;
+    height: 36px;
+    font: var(--unnamed-font-style-normal) normal bold 24px/36px var(--unnamed-font-family-source-han-sans-tw);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-650300);
+    text-align: left;
+    font: normal normal bold 24px/36px Source Han Sans TW;
+    letter-spacing: 0px;
+    color: #650300;
+    text-transform: uppercase;
+    opacity: 1;
+}
+.text12{
+    position: absolute;
+    top: 1203px;
+    left: 642px;
+    width: 306px;
+    height: 72px;
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 16px/24px var(--unnamed-font-family-source-han-sans-tw);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-000000);
+    text-align: left;
+    font: normal normal normal 16px/24px Source Han Sans TW;
+    letter-spacing: 0px;
+    color: #000000;
+    text-transform: uppercase;
+    opacity: 1;
+}
+.icon3{
+    position: absolute;
+    top: 1056px;
+    left: 1083px;
+    width: 83px;
+    height: 76px;
+    background: transparent url('img/icon3.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.text13{
+    position: absolute;
+    top: 1159px;
+    left: 972px;
+    width: 306px;
+    height: 36px;
+    font: var(--unnamed-font-style-normal) normal bold 24px/36px var(--unnamed-font-family-source-han-sans-tw);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-650300);
+    text-align: center;
+    font: normal normal bold 24px/36px Source Han Sans TW;
+    letter-spacing: 0px;
+    color: #650300;
+    text-transform: uppercase;
+    opacity: 1;
+}
+.text14{
+    position: absolute;
+    top: 1203px;
+    left: 972px;
+    width: 306px;
+    height: 72px;
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 16px/24px var(--unnamed-font-family-source-han-sans-tw);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-000000);
+    text-align: left;
+    font: normal normal normal 16px/24px Source Han Sans TW;
+    letter-spacing: 0px;
+    color: #000000;
+    text-transform: uppercase;
+    opacity: 1;
+}
+.icon4{
+    position: absolute;
+    top: 1068px;
+    left: 1405px;
+    width: 100px;
+    height: 46px;
+    background: transparent url('img/icon4.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.text15{
+    position: absolute;
+    top: 1159px;
+    left: 1302px;
+    width: 306px;
+    height: 36px;
+    font: var(--unnamed-font-style-normal) normal bold 24px/36px var(--unnamed-font-family-source-han-sans-tw);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-650300);
+    text-align: center;
+    font: normal normal bold 24px/36px Source Han Sans TW;
+    letter-spacing: 0px;
+    color: #650300;
+    text-transform: uppercase;
+    opacity: 1;
+}
+.text16{
+    position: absolute;
+    top: 1203px;
+    left: 1302px;
+    width: 306px;
+    height: 48px;
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 16px/24px var(--unnamed-font-family-source-han-sans-tw);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-000000);
+    text-align: left;
+    font: normal normal normal 16px/24px Source Han Sans TW;
+    letter-spacing: 0px;
+    color: #000000;
+    text-transform: uppercase;
+    opacity: 1;
+}
+.text17{
+    position: absolute;
+    top: 1435px;
+    left: 752px;
+    width: 416px;
+    height: 72px;
+    font: var(--unnamed-font-style-normal) normal bold 48px/72px var(--unnamed-font-family-source-han-sans-tw);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-650300);
+    text-align: center;
+    font: normal normal bold 48px/72px Source Han Sans TW;
+    letter-spacing: 0px;
+    color: #650300;
+    text-transform: uppercase;
+    opacity: 1;
+}
+.pic2{
+    position: absolute;
+    top: 1555px;
+    left: 312px;
+    width: 416px;
+    height: 416px;
+    background: transparent url('img/person1.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.pic3{
+    position: absolute;
+    top: 1555px;
+    left: 752px;
+    width: 416px;
+    height: 416px;
+    background: transparent url('img/person2.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.pic4{
+    position: absolute;
+    top: 1555px;
+    left: 1192px;
+    width: 416px;
+    height: 416px;
+    background: transparent url('img/person3.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.text18{
+    position: absolute;
+    top: 1979px;
+    left: 312px;
+    width: 416px;
+    height: 72px;
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-aa0601);
+    text-align: center;
+    font: italic normal 900 48px/72px Roboto;
+    letter-spacing: 0px;
+    color: #AA0601;
+    text-transform: uppercase;
+    opacity: 1;
+}
+.text19{
+    position: absolute;
+    top: 1979px;
+    left: 752px;
+    width: 416px;
+    height: 72px;
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-aa0601);
+    text-align: center;
+    font: italic normal 900 48px/72px Roboto;
+    letter-spacing: 0px;
+    color: #AA0601;
+    text-transform: uppercase;
+    opacity: 1;
+}
+.text20{
+    position: absolute;
+    top: 1979px;
+    left: 1192px;
+    width: 416px;
+    height: 72px;
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-aa0601);
+    text-align: center;
+    font: italic normal 900 48px/72px Roboto;
+    letter-spacing: 0px;
+    color: #AA0601;
+    text-transform: uppercase;
+    opacity: 1;
+}
+.bac3{
+    position: absolute;
+    top: 2131px;
+    left: 0px;
+    width: 1920px;
+    height: 608px;
+    background: transparent url('img/bac2.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.text21{
+    position: absolute;
+        top: 2211px;
+    left: 805px;
+    width: 288px;
+    height: 72px;
+    font: var(--unnamed-font-style-normal) normal bold 48px/72px var(--unnamed-font-family-source-han-sans-tw);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-ffffff);
+    text-align: left;
+    font: normal normal bold 48px/72px Source Han Sans TW;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    opacity: 1;
+}
+.pic5{
+    position: absolute;
+    top: 2331px;
+    left: 312px;
+    width: 648px;
+    height: 240px;
+    background: transparent url('img/pic1.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.pic6{
+    position: absolute;
+    top: 2331px;
+    left: 960px;
+    width: 648px;
+    height: 240px;
+    background: transparent url('img/pic2.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.white1{
+    position: absolute;
+    top: 2571px;
+    left: 312px;
+    width: 648px;
+    height: 88px;
+    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.white2{
+    position: absolute;
+    top: 2571px;
+    left: 960px;
+    width: 648px;
+    height: 88px;
+    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.text22{
+    position: absolute;
+    top: 2579px;
+    left: 513px;
+    width: 246px;
+    height: 72px;
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-aa0601);
+    text-align: center;
+    font: italic normal 900 48px/72px Roboto;
+    letter-spacing: 0px;
+    color: #AA0601;
+    text-transform: uppercase;
+    opacity: 1;
+}
+.text23{
+    position: absolute;
+    top: 2579px;
+    left: 1206px;
+    width: 156px;
+    height: 72px;
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-aa0601);
+    text-align: center;
+    font: italic normal 900 48px/72px Roboto;
+    letter-spacing: 0px;
+    color: #AA0601;
+    text-transform: uppercase;
+    opacity: 1;
+}
+.text24{
+    position: absolute;
+    top: 2819px;
+    left: 752px;
+    width: 416px;
+    height: 72px;
+    font: var(--unnamed-font-style-normal) normal bold 48px/72px var(--unnamed-font-family-source-han-sans-tw);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-650300);
+    text-align: center;
+    font: normal normal bold 48px/72px Source Han Sans TW;
+    letter-spacing: 0px;
+    color: #650300;
+    text-transform: uppercase;
+    opacity: 1;
+}
+.bac4{
+    position: absolute;
+    /* Layout Properties */
+    top: 2939px;
+    left: 312px;
+    width: 306px;
+    height: 511px;
+    /* UI Properties */
+    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 2px 6px #00000029;
+    border: 1px solid #DEE2E6;
+    border-radius: 4px;
+    opacity: 1;
+}
+.bac5{
+    position: absolute;
+    top: 2939px;
+    left: 642px;
+    width: 306px;
+    height: 511px;
+    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 2px 6px #00000029;
+    border: 1px solid #DEE2E6;
+    border-radius: 4px;
+    opacity: 1;
+}
+.bac6{
+    position: absolute;
+    top: 2939px;
+    left: 972px;
+    width: 306px;
+    height: 511px;
+    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 2px 6px #00000029;
+    border: 1px solid #DEE2E6;
+    border-radius: 4px;
+    opacity: 1;
+}
+.bac7{
+    position: absolute;
+    top: 2939px;
+    left: 1302px;
+    width: 306px;
+    height: 511px;
+    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 2px 6px #00000029;
+    border: 1px solid #DEE2E6;
+    border-radius: 4px;
+    opacity: 1;
+}
+.pic7{
+    position: absolute;
+    top: 2939px;
+    left: 312px;
+    width: 306px;
+    height: 306px;
+    background: transparent url('img/sec4.1.png') 0% 0% no-repeat padding-box;
+    border-radius: 4px 4px 0px 0px;
+    opacity: 1;
+}
+.pic8{
+    position: absolute;
+    top: 2939px;
+    left: 642px;
+    width: 306px;
+    height: 306px;
+    background: transparent url('img/sec4.2.png') 0% 0% no-repeat padding-box;
+    border-radius: 4px 4px 0px 0px;
+    opacity: 1;
+}
+.pic9{
+    position: absolute;
+    top: 2939px;
+    left: 972px;
+    width: 306px;
+    height: 306px;
+    background: transparent url('img/sec4.3.png') 0% 0% no-repeat padding-box;
+    border-radius: 4px 5px 0px 0px;
+    opacity: 1;
+}
+.pic10{
+    position: absolute;
+    top: 2939px;
+    left: 1302px;
+    width: 306px;
+    height: 306px;
+    background: transparent url('img/sec4.4.png') 0% 0% no-repeat padding-box;
+    border-radius: 4px 4px 0px 0px;
+    opacity: 1;
+}
+.text25{
+    position: absolute;
+    top: 3261px;
+    left: 328px;
+    width: 42px;
+    height: 24px;
+    font: var(--unnamed-font-style-normal) normal medium 16px/24px var(--unnamed-font-family-source-han-sans-tw);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-000000);
+    text-align: left;
+    font: normal normal medium 16px/24px Source Han Sans TW;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+.text26{
+    position: absolute;
+    top: 3293px;
+    left: 328px;
+    width: 274px;
+    height: 48px;
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 16px/24px var(--unnamed-font-family-source-han-sans-tw);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-000000);
+    text-align: left;
+    font: normal normal normal 16px/24px Source Han Sans TW;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+.text27{
+    position: absolute;
+    top: 3413px;
+    left: 328px;
+    width: 74px;
+    height: 21px;
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-14)/var(--unnamed-line-spacing-21) var(--unnamed-font-family-source-han-sans-tw);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    text-align: left;
+    font: normal normal normal 14px/21px Source Han Sans TW;
+    letter-spacing: 0px;
+    color: #707070;
+    opacity: 1;
+}
+.text28{
+    position: absolute;
+    top: 3261px;
+    left: 658px;
+    width: 32px;
+    height: 24px;
+    font: var(--unnamed-font-style-normal) normal medium 16px/24px var(--unnamed-font-family-source-han-sans-tw);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-000000);
+    text-align: left;
+    font: normal normal medium 16px/24px Source Han Sans TW;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+.text29{
+    position: absolute;
+    top: 3293px;
+    left: 658px;
+    width: 274px;
+    height: 72px;
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 16px/24px var(--unnamed-font-family-source-han-sans-tw);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-000000);
+    text-align: left;
+    font: normal normal normal 16px/24px Source Han Sans TW;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+.text30{
+    position: absolute;
+    top: 3413px;
+    left: 658px;
+    width: 74px;
+    height: 21px;
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-14)/var(--unnamed-line-spacing-21) var(--unnamed-font-family-source-han-sans-tw);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    text-align: left;
+    font: normal normal normal 14px/21px Source Han Sans TW;
+    letter-spacing: 0px;
+    color: #707070;
+    opacity: 1;
+}
+.text31{
+    position: absolute;
+    top: 3261px;
+    left: 988px;
+    width: 32px;
+    height: 24px;
+    font: var(--unnamed-font-style-normal) normal medium 16px/24px var(--unnamed-font-family-source-han-sans-tw);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-000000);
+    text-align: left;
+    font: normal normal medium 16px/24px Source Han Sans TW;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+.text32{
+    position: absolute;
+    top: 3293px;
+    left: 988px;
+    width: 274px;
+    height: 72px;
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 16px/24px var(--unnamed-font-family-source-han-sans-tw);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-000000);
+    text-align: left;
+    font: normal normal normal 16px/24px Source Han Sans TW;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+.text33{
+    position: absolute;
+    top: 3413px;
+    left: 988px;
+    width: 74px;
+    height: 21px;
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-14)/var(--unnamed-line-spacing-21) var(--unnamed-font-family-source-han-sans-tw);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    text-align: left;
+    font: normal normal normal 14px/21px Source Han Sans TW;
+    letter-spacing: 0px;
+    color: #707070;
+    opacity: 1;
+}
+.text34{
+    position: absolute;
+    top: 3261px;
+    left: 1318px;
+    width: 48px;
+    height: 24px;
+    font: var(--unnamed-font-style-normal) normal medium 16px/24px var(--unnamed-font-family-source-han-sans-tw);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-000000);
+    text-align: left;
+    font: normal normal medium 16px/24px Source Han Sans TW;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+.text35{
+    position: absolute;
+    top: 3293px;
+    left: 1318px;
+    width: 274px;
+    height: 48px;
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 16px/24px var(--unnamed-font-family-source-han-sans-tw);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-000000);
+    text-align: left;
+    font: normal normal normal 16px/24px Source Han Sans TW;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+.text36{
+    position: absolute;
+    top: 3413px;
+    left: 1318px;
+    width: 74px;
+    height: 21px;
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-14)/var(--unnamed-line-spacing-21) var(--unnamed-font-family-source-han-sans-tw);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    text-align: left;
+    font: normal normal normal 14px/21px Source Han Sans TW;
+    letter-spacing: 0px;
+    color: #707070;
+    opacity: 1;
+}
+.bac8{
+    position: absolute;
+    top: 3530px;
+    left: 0px;
+    width: 1920px;
+    height: 922px;
+    background: var(--unnamed-color-fbf2f2) 0% 0% no-repeat padding-box;
+    background: #FBF2F2 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.text37{
+    position: absolute;
+    top: 3610px;
+    left: 752px;
+    width: 416px;
+    height: 72px;
+    font: var(--unnamed-font-style-normal) normal bold 48px/72px var(--unnamed-font-family-source-han-sans-tw);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-650300);
+    text-align: center;
+    font: normal normal bold 48px/72px Source Han Sans TW;
+    letter-spacing: 0px;
+    color: #650300;
+    text-transform: uppercase;
+    opacity: 1;
+}
+.text38{
+    position: absolute;
+    top: 3730px;
+    left: 642px;
+    width: 636px;
+    height: 60px;
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 20px/30px var(--unnamed-font-family-source-han-sans-tw);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-000000);
+    text-align: left;
+    font: normal normal normal 20px/30px Source Han Sans TW;
+    letter-spacing: 0px;
+    color: #000000;
+    text-transform: uppercase;
+    opacity: 1;
+}
+.text39{
+    position: absolute;
+    top: 3814px;
+    left: 642px;
+    width: 32px;
+    height: 24px;
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 16px/24px var(--unnamed-font-family-source-han-sans-tw);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-000000);
+    text-align: left;
+    font: normal normal normal 16px/24px Source Han Sans TW;
+    letter-spacing: 0px;
+    color: #000000;
+    text-transform: uppercase;
+    opacity: 1;
+}
+.form1{
+    position: absolute;
+    top: 3846px;
+    left: 642px;
+    width: 636px;
+    height: 36px;
+    border: 1px solid var(--unnamed-color-000000);
+    border: 1px solid #000000;
+    opacity: 1;
+}
+.text40{
+    position: absolute;
+    top: 3852px;
+    left: 654px;
+    width: 48px;
+    height: 24px;
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 16px/24px var(--unnamed-font-family-source-han-sans-tw);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-000000);
+    text-align: left;
+    font: normal normal normal 16px/24px Source Han Sans TW;
+    letter-spacing: 0px;
+    color: #000000;
+    text-transform: uppercase;
+    opacity: 0.2;
+}
+.text41{
+    position: absolute;
+    top: 3898px;
+    left: 642px;
+    width: 64px;
+    height: 24px;
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 16px/24px var(--unnamed-font-family-source-han-sans-tw);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-000000);
+    text-align: left;
+    font: normal normal normal 16px/24px Source Han Sans TW;
+    letter-spacing: 0px;
+    color: #000000;
+    text-transform: uppercase;
+    opacity: 1;
+}
+.form2{
+    position: absolute;
+    top: 3930px;
+    left: 642px;
+    width: 636px;
+    height: 33px;
+    border: 1px solid var(--unnamed-color-000000);
+    border: 1px solid #000000;
+    opacity: 1;
+}
+.text42{
+    position: absolute;
+    top: 3936px;
+    left: 654px;
+    width: 99px;
+    height: 21px;
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 16px/24px Roboto;
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-000000);
+    text-align: left;
+    font: normal normal normal 16px/24px Roboto;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 0.2;
+}
+.text43{
+    position: absolute;
+    top: 3979px;
+    left: 642px;
+    width: 64px;
+    height: 24px;
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 16px/24px var(--unnamed-font-family-source-han-sans-tw);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-000000);
+    text-align: left;
+    font: normal normal normal 16px/24px Source Han Sans TW;
+    letter-spacing: 0px;
+    color: #000000;
+    text-transform: uppercase;
+    opacity: 1;
+}
+.form3{
+    position: absolute;
+    top: 4011px;
+    left: 642px;
+    width: 636px;
+    height: 33px;
+    border: 1px solid var(--unnamed-color-000000);
+    border: 1px solid #000000;
+    opacity: 1;
+}
+.text44{
+    position: absolute;
+    top: 4017px;
+    left: 654px;
+    width: 150px;
+    height: 21px;
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 16px/24px Roboto;
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-000000);
+    text-align: left;
+    font: normal normal normal 16px/24px Roboto;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 0.2;
+}
+.text45{
+    position: absolute;
+    top: 4060px;
+    left: 642px;
+    width: 64px;
+    height: 24px;
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 16px/24px var(--unnamed-font-family-source-han-sans-tw);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-000000);
+    text-align: left;
+    font: normal normal normal 16px/24px Source Han Sans TW;
+    letter-spacing: 0px;
+    color: #000000;
+    text-transform: uppercase;
+    opacity: 1;
+}
+.form4{
+    position: absolute;
+    top: 4092px;
+    left: 642px;
+    width: 636px;
+    height: 136px;
+    border: 1px solid var(--unnamed-color-000000);
+    border: 1px solid #000000;
+    opacity: 1;
+}
+.text46{
+    position: absolute;
+    top: 4098px;
+    left: 654px;
+    width: 112px;
+    height: 24px;
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 16px/24px var(--unnamed-font-family-source-han-sans-tw);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-000000);
+    text-align: left;
+    font: normal normal normal 16px/24px Source Han Sans TW;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 0.2;
+}
+.sele{
+    position: absolute;
+    top: 4244px;
+    left: 642px;
+    width: 24px;
+    height: 24px;
+    background: transparent url('img/ic_check_box_outline_blank_24px.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.text47{
+    position: absolute;
+    /* Layout Properties */
+    top: 4244px;
+    left: 670px;
+    width: 608px;
+    height: 24px;
+    /* UI Properties */
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 16px/24px var(--unnamed-font-family-source-han-sans-tw);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-000000);
+    text-align: left;
+    font: normal normal normal 16px/24px Source Han Sans TW;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+.bac9{
+    position: absolute;
+    top: 4316px;
+    left: 752px;
+    width: 416px;
+    height: 56px;
+    background: var(--unnamed-color-aa0601) 0% 0% no-repeat padding-box;
+    background: #AA0601 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.text48{
+    position: absolute;
+    top: 4332px;
+    left: 928px;
+    width: 64px;
+    height: 24px;
+    font: var(--unnamed-font-style-normal) normal bold 16px/24px var(--unnamed-font-family-source-han-sans-tw);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-ffffff);
+    text-align: center;
+    font: normal normal bold 16px/24px Source Han Sans TW;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+.bac10{
+    position: absolute;
+    top: 4452px;
+    left: 0px;
+    width: 1920px;
+    height: 353px;
+    background: var(--unnamed-color-aa0601) 0% 0% no-repeat padding-box;
+    background: #AA0601 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
